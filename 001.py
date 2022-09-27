@@ -65,8 +65,29 @@
 
 # С помощью range
 
-N = int(input())
-mass = []
-for i in range(-N,N+1,1):
-    mass.append(i)
-print(mass)
+# N = int(input())
+# mass = []
+# for i in range(-N,N+1,1):
+#     mass.append(i)
+# print(mass)
+
+# Написать программу, которая принимает на вход дробное число, и выводит цифру из позиции десятых долей
+# 1.23 -> 2
+
+# print('Введите дробное число: ')
+# a = float(input())
+# b = int(a * 10) % 10
+# print(b)
+
+# второй вариант решения, через индекс элемента строки
+
+# a = str(float(input())
+# print(a[a.find('.') + 1])
+
+# Программа принимает число и проверяет кратность этого числа 5, 10, 15, но не 30
+
+# a = int(input())
+# if a % 5 == 0 and (a % 10 == 0 or a % 15 == 0) and a % 30 != 0:
+#     print('Ok')
+# else: print('Error')
+
